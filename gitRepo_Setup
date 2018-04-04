@@ -1,0 +1,23 @@
+install git
+>git config --global user.name "your username"
+>git c config --global user.email yourEmail@xd.com
+
+Go to your project folder
+>git init  // this will initialize your project folder as repository and will set it as origin branch
+
+>git add . // this will add all the fildes existing into the folder to the record of git repo)
+
+>git commit -m 'first commit for project initialization'
+
+>git remote add origin https://github.com/aquibrash87/One.git
+
+It will prompt for git username and password, and push the files there
+
+in case of error while connecting to git
+
+>git remote remove origin
+
+for details consult
+https://www.youtube.com/watch?v=gAWiXbT599E
+
+
