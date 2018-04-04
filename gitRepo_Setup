@@ -10,6 +10,7 @@ Go to your project folder
 >git commit -m 'first commit for project initialization'
 
 >git remote add origin https://github.com/aquibrash87/One.git
+ > git push origin master
 
 It will prompt for git username and password, and push the files there
 
