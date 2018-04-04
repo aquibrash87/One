@@ -8,4 +8,5 @@ int main(int argc, char *argv[])
     w.show();
 // Test comment for git
     return a.exec();
+    // test comment from Windows local machine
 }
