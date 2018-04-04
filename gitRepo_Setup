@@ -22,7 +22,14 @@ for details consult
 https://www.youtube.com/watch?v=gAWiXbT599E
 
 
-for qt creator configure remote repository by adding
 
 Tools>local>commit for project initialization commit
-git remote add origin https://{username}:{password}@github.com/{username}/project.git
+
+for qt creator configure remote repository by adding
+
+>git remote add origin https://{username}:{password}@github.com/{username}/project.git
+
+>git push -u origin master
+
+in case the qt creator does not connect to github and show No refs in common message, 
+go to your project directory and open git bash and type the git push above command directly
